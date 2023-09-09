@@ -1,17 +1,20 @@
 export const userFeed = [
   {
+    id: "xyz123",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     account: "be_like_bunny",
     desc: "",
     tags: ["rabbit", "humanity", "big_heart"],
   },
   {
+    id: "xyz124",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     account: "motivations_123",
     desc: "",
     tags: ["elephant", "dream"],
   },
   {
+    id: "xyz125",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     account: "The_Verge",
     desc: "HBO GO now works with Chromecast",
@@ -22,18 +25,21 @@ export const userFeed = [
 // previously decided for hash key with hastags but less context is there since tiktok is banned in India
 export const relatedReels = [
   {
+    id: "xyz126",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
     account: "The_Verge",
     desc: "Introducing Chromecast. The easiest way to enjoy online video",
     tags: ["tech", "google", "chromecast", "HBO"],
   },
   {
+    id: "xyz127",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
     account: "The_Verge",
     desc: "TV—for when you want to make Buster's big meltdowns",
     tags: ["tech", "google", "chromecast", "HBO"],
   },
   {
+    id: "xyz128",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     account: "Blender_Foundation",
     desc: "Sintel is an independently produced short film With initial funding provided by 1000s of donations via the internet",

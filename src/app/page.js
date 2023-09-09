@@ -1,6 +1,6 @@
 "use client";
 
-import { Reels } from "./Reels";
+import Reels from "./components/Reels/Reels";
 import StoreWrapper from "./store/store";
 
 export default function Home() {
