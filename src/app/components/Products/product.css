@@ -1,0 +1,12 @@
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.product__item {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}

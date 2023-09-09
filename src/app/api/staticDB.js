@@ -27,6 +27,8 @@ export const relatedReels = [
   {
     id: "xyz126",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    thumbnail:
+      "https://5.imimg.com/data5/SELLER/Default/2020/12/ON/IU/IY/117802970/google-chromecast.jpg",
     account: "The_Verge",
     desc: "Introducing Chromecast. The easiest way to enjoy online video",
     tags: ["tech", "google", "chromecast", "HBO"],
@@ -34,6 +36,7 @@ export const relatedReels = [
   {
     id: "xyz127",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    thumbnail: "https://images.indianexpress.com/2015/02/chromecast.jpg",
     account: "The_Verge",
     desc: "TV—for when you want to make Buster's big meltdowns",
     tags: ["tech", "google", "chromecast", "HBO"],
@@ -41,6 +44,8 @@ export const relatedReels = [
   {
     id: "xyz128",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    thumbnail:
+      "https://m.economictimes.com/thumb/msid-99875466,width-2309,height-1299,resizemode-4,imgsize-105144/companies-eye-indian-expats-for-niche-tech-roles.jpg",
     account: "Blender_Foundation",
     desc: "Sintel is an independently produced short film With initial funding provided by 1000s of donations via the internet",
     tags: ["tech"],
