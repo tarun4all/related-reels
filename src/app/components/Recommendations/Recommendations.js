@@ -4,7 +4,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./recoommend.css";
 
 export function Recommendations({ recommendations = [] }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const RelatedVideos = () => {
     return (

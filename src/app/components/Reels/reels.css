@@ -46,13 +46,28 @@
   }
 }
 
-.videoFooter {
+.video__footer {
   position: relative;
   color: white;
   bottom: 150px;
   margin-left: 40px;
   display: flex;
   flex-direction: column;
+}
+
+.video__sidebar {
+  position: absolute;
+  top: 70%;
+  right: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.video__sidebar svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 h5 {

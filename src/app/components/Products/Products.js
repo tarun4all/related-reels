@@ -1,6 +1,7 @@
 import { Box, Divider, List, ListItem } from "@mui/material";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import { styled } from "@mui/material/styles";
+import LocalOfferIcon from "@mui/icons-material/LocalOffer";
 import "./product.css";
 import { useState } from "react";
 
@@ -38,6 +39,8 @@ export function RelatedProducts({ products = [] }) {
     );
   };
 
+  const ShopButton = () => <LocalOfferIcon onClick={() => setShow(true)} />;
+
   const toggleDrawer = (event) => (state) => {
     if (
       event &&
@@ -50,15 +53,18 @@ export function RelatedProducts({ products = [] }) {
   };
 
   return (
-    <SwipeableDrawer
-      anchor={"bottom"}
-      open={show}
-      onClose={toggleDrawer(false)}
-      onOpen={toggleDrawer(true)}
-      swipeAreaWidth={56}
-    >
-      <Puller />
-      {list()}
-    </SwipeableDrawer>
+    <>
+      <ShopButton />
+      <SwipeableDrawer
+        anchor={"bottom"}
+        open={show}
+        onClose={toggleDrawer(false)}
+        onOpen={toggleDrawer(true)}
+        swipeAreaWidth={56}
+      >
+        <Puller />
+        {list()}
+      </SwipeableDrawer>
+    </>
   );
 }
