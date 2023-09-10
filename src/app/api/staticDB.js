@@ -3,14 +3,14 @@ export const userFeed = [
     id: "xyz123",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     account: "be_like_bunny",
-    desc: "",
+    desc: "Cute bunny Movie",
     tags: ["rabbit", "humanity", "big_heart"],
   },
   {
     id: "xyz124",
     url: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     account: "motivations_123",
-    desc: "",
+    desc: "A dream for elephant",
     tags: ["elephant", "dream"],
   },
   {

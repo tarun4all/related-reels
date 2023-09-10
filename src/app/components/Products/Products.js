@@ -15,7 +15,7 @@ const Puller = styled(Box)(() => ({
 }));
 
 export function RelatedProducts({ products = [] }) {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const list = () => {
     return (

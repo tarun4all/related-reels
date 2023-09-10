@@ -45,3 +45,26 @@
     scroll-snap-type: y mandatory;
   }
 }
+
+.videoFooter {
+  position: relative;
+  color: white;
+  bottom: 150px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+h3 {
+  margin: 0;
+  color: black;
+  margin-bottom: 5px;
+}

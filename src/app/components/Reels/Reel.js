@@ -2,16 +2,17 @@ import { useEffect, useState } from "react";
 import { RelatedProducts } from "../Products/Products";
 import { getRecommendations } from "@/app/api/recommendations";
 import { getRelatedProducts } from "@/app/api/products";
+import { Recommendations } from "../Recommendations/Recommendations";
 
-export default function Reel({ url, id, tags }) {
+export default function Reel({ url, account, tags, desc }) {
   const [products, setproducts] = useState([]);
   const [recommendations, setRecommendations] = useState([]);
 
   useEffect(() => {
     Promise.all([getRecommendations(), getRelatedProducts(tags)]).then(
-      (res) => {
-        setRecommendations(res[0]);
-        setproducts(res[1]);
+      ([r, p]) => {
+        setRecommendations(r);
+        setproducts(p);
       }
     );
   }, []);
@@ -29,6 +30,12 @@ export default function Reel({ url, id, tags }) {
         type="video/mp4"
       ></video>
       <RelatedProducts products={products} />
+
+      <div className="videoFooter">
+        <h3>@{account}</h3>
+        <h5>{desc}</h5>
+        <Recommendations recommendations={recommendations} />
+      </div>
     </div>
   );
 }
